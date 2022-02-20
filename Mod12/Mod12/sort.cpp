@@ -65,5 +65,6 @@ int KMPSearch(const std::string& pat, const std::string& txt)
             }
         }
     }
+    delete[] lps;
     return patternCounter;
 }
